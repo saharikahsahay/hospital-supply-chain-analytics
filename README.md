@@ -3,9 +3,10 @@ Hospital supply chain analysis using SQL and Tableau to evaluate inventory, repl
 # U.S. Hospital Supply Chain & Inventory Optimization
 
 ## Overview
-This project analyzes hospital supply chain and inventory data to identify stockout risk, evaluate replenishment needs, and assess the financial impact of inventory decisions. SQL and PostgreSQL were used to develop inventory and replenishment metrics, with Tableau used to visualize operational trends and risk areas.
+This project analyzes supply chain and inventory data from a simulated medium-sized hospital to identify stockout risk, evaluate replenishment needs, and assess the financial impact of inventory decisions. SQL and PostgreSQL were used to develop inventory and replenishment metrics, with Tableau used to visualize operational trends and risk areas.
 
 ## Tools
+Dataset: The dataset represents a simulated medium-sized hospital and includes inventory, patient demand, staffing, vendor, and financial data. This project specifically focuses on the inventory and supply chain components.
 - PostgreSQL
 - SQL
 - Tableau Public
@@ -22,7 +23,7 @@ The analysis focused on several operational measures:
 A 20% safety buffer was incorporated into the reorder point to account for replenishment uncertainty.
 
 ## Key Findings
-- 6 of 10 inventory items were identified as being at stockout risk, including 2 X-ray Machines, 2 Surgical Masks, 1 Glove supply, and 1 IV Drip.
+- 6 of 10 inventory items were identified as being at stockout risk, including 2 X-ray Machines, 2 Surgical Masks, 1 Gloves item, and 1 IV Drip.
 - Stockout risk was present across 4 of the 5 analyzed supply categories.
 - Average inventory coverage exceeded average replenishment lead time across all five categories, showing how category-level averages can mask item-level shortages.
 - X-ray Machines had the highest average inventory value at approximately $28M, compared with roughly $23M for Gloves, representing about 22% greater inventory value exposure.
