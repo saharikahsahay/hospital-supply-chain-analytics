@@ -30,6 +30,8 @@ A 20% safety buffer was incorporated into the reorder point to account for reple
 
 ## Dashboard
 
+![U.S. Hospital Supply Chain & Inventory Optimization Dashboard](hospital_supply_chain_dashboard.png)
+
 The interactive Tableau dashboard evaluates inventory coverage, reorder thresholds, inventory value, and supplier lead-time exposure.
 
 [View Interactive Tableau Dashboard](https://public.tableau.com/views/U_S_HospitalSupplyChainInventoryOptimization/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
